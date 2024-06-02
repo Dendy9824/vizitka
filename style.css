@@ -1,1 +1,68 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Gloria+Hallelujah&family=Montserrat&family=Pacifico&family=Roboto+Slab:wght@100..900&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto Slab", serif;
+
+}
+
+header{
+    background-color: #FFA840;
+    height: 100px;
+    width: 100%;
+    min-width: 900px;
+}
+
+nav{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    font-size: 24px;
+    text-decoration: none;
+    color:#BE008A;
+}
+ nav a:hover{
+     color: #7C005A;
+ }
+
+ .about{
+    width: 100vw;
+    height: 30vh;
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+ }
+
+ .avatar{
+     width: 30vh;
+     min-width: 150px;
+ }
+
+.aboutPic{
+    margin-left: 0px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.icons{
+    width: 100px;
+}
+
+.tech{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main{
+    background-image: url
+}
